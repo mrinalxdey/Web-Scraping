@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import datetime
 
 client = MongoClient(
-    "mongodb+srv://test:test123@cluster0.rj8bjpj.mongodb.net/")
+    "connectionstring")
 db = client.scrapy
 
 
